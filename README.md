@@ -80,6 +80,7 @@ python traffic_violation_detection.py
 🤝 Đóng góp
 
 Dự án được phát triển bởi 4 thành viên:
+Nguyễn Văn Bắc, Lê Hải Đăng, Hoàng Anh Tú, Trịnh Việt Hưng
 
 
 
