@@ -1,5 +1,5 @@
 BÁO CÁO HỆ THỐNG phát hiện tình trạng buồn ngủ khi lái xe oto và cảnh báo người lái xe
-![image](https://github.com/user-attachments/assets/d1572174-b9a5-44f7-b7c8-769db9bdac3e)
+
 Trong bối cảnh giao thông ngày càng trở nên phức tạp và số lượng tai nạn giao thông liên quan đến người lái xe buồn ngủ ngày càng gia tăng, việc phát triển các hệ thống hỗ trợ an toàn cho người lái xe là một nhu cầu cấp thiết. Một trong những nguyên nhân chính dẫn đến tai nạn giao thông là tình trạng buồn ngủ của người lái xe, đặc biệt là trong các chuyến đi dài hoặc vào ban đêm. Để giải quyết vấn đề này, công nghệ nhận diện hình ảnh và trí tuệ nhân tạo đã mở ra những khả năng mới trong việc phát hiện và cảnh báo tình trạng buồn ngủ của người lái xe.
 Dự án "Phát hiện tình trạng buồn ngủ khi lái xe oto và cảnh báo người lái xe" nhằm xây dựng một hệ thống có khả năng nhận diện khi mắt người lái xe đóng liên tục trong một khoảng thời gian nhất định, qua đó đưa ra các cảnh báo kịp thời để đảm bảo sự an toàn. Hệ thống sử dụng công nghệ xử lý hình ảnh với OpenCV để phát hiện khuôn mặt và mắt của người lái xe, kết hợp với các thuật toán xử lý để xác định tình trạng buồn ngủ. Khi phát hiện dấu hiệu buồn ngủ, hệ thống sẽ tự động chụp ảnh và phát cảnh báo bằng âm thanh hoặc giọng nói.
 
@@ -17,7 +17,7 @@ Camera giám sát: Ghi lại hình ảnh của tài xế khi lái xe.
 Xử lý ảnh & AI: Phát hiện trạng thái buồn ngủ và nhận diện khuôn mặt.
 Cơ sở dữ liệu: Lưu thông tin trạng thái của tài xế để phân tích và đánh giá.
 
-![image](https://github.com/user-attachments/assets/7e0b9c63-31e6-4ae7-8ac5-6749f4f6bf2a)
+
 
    
  🛠️ Công cụ sử dụng
@@ -74,7 +74,6 @@ python traffic_violation_detection.py
 
 📰 Poster
 
-![image](https://github.com/user-attachments/assets/0d28a8a1-e0bd-4420-ae06-1bf4828374c1)
 
 
 
@@ -82,7 +81,7 @@ python traffic_violation_detection.py
 
 Dự án được phát triển bởi 4 thành viên:
 
-![image](https://github.com/user-attachments/assets/428bb98a-60ca-4143-a5af-f77995e84949)
+
 
 
 
