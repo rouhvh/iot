@@ -1,0 +1,35 @@
+Sau khi sinh viên đã hiểu và chạy được đoạn mã mẫu trên, bạn có thể yêu cầu họ phát triển thêm bằng cách đặt ra các nhiệm vụ nâng cao. Dưới đây là một số ý tưởng giúp sinh viên mở rộng bài toán phát hiện chuyển động:
+
+1. Cải thiện thuật toán phát hiện chuyển động
+Sử dụng phương pháp khác thay vì cv2.createBackgroundSubtractorMOG2(), chẳng hạn như:
+cv2.createBackgroundSubtractorKNN()
+So sánh khung hình liên tiếp bằng phương pháp cv2.absdiff()
+Áp dụng bộ lọc Gaussian Blur hoặc Median Blur để giảm nhiễu trước khi xử lý.
+Chỉ kích hoạt phát hiện chuyển động khi có chuyển động liên tục trong một khoảng thời gian (tránh báo động giả).
+
+2. Hiển thị vùng có chuyển động
+Vẽ bounding box xung quanh vùng chuyển động trên khung hình.
+Hiển thị phần trăm diện tích vùng chuyển động trên tổng khung hình.
+Dùng cv2.putText() để hiển thị trạng thái "Motion Detected" trên video.
+
+3. Ghi lại video khi có chuyển động
+Khi phát hiện chuyển động, bắt đầu ghi lại video trong một khoảng thời gian xác định (cv2.VideoWriter()).
+Tạo một cơ chế dừng ghi khi không còn chuyển động.
+Lưu file video theo timestamp và tổ chức theo thư mục ngày/tháng.
+
+4. Tích hợp cảnh báo khi phát hiện chuyển động
+Gửi email cảnh báo kèm theo ảnh chụp (smtplib hoặc yagmail).
+Gửi thông báo qua Telegram, Discord hoặc Webhook.
+Phát âm thanh cảnh báo (pygame.mixer hoặc playsound).
+
+5. Thêm giao diện điều khiển trên web
+Cho phép bật/tắt tính năng phát hiện chuyển động qua giao diện HTML.
+Hiển thị trạng thái hiện tại (có chuyển động hay không).
+Cho phép tải về ảnh/video trực tiếp từ trang web.
+
+6. Hỗ trợ nhiều nguồn video
+Cho phép chọn nguồn video khác nhau (cv2.VideoCapture(0), file video, RTSP camera).
+Hỗ trợ nhiều camera cùng lúc.
+
+7. Tối ưu hiệu suất
+Chuyển đổi mã sang sử dụng asyncio hoặc threading để giảm tải CPU.
